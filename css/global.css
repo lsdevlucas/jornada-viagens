@@ -43,6 +43,17 @@ body {
   color: var(--text-primary-color);
 }
 
+section.hero,
+section.bottom-hero {
+  width: 100%;
+  margin: 0;
+}
+
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
