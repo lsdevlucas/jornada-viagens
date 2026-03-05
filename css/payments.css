@@ -28,21 +28,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .payments .content-container {
-    display: flex;
-  }
-  .payments .content-container {
-    justify-content: space-between;
-  }
-
-  .payments .content-container .image-gallery {
-    width: 790px;
-  }
-
-  .payments .content-container .text-content {
-    width: 360px;
-  }
-
   .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery-1-tablet.png) no-repeat;
     background-size: cover;
@@ -62,8 +47,22 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .payments .content-container .text-content .content-title {
+    margin: 0 0 24px;
+  }
+
+  .payments .content-container .image-gallery {
+    width: 790px;
+    margin: 0;
+  }
+
   .payments .content-container .text-content {
-    margin-right: 23px;
+    width: 360px;
   }
 }
